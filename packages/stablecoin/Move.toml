@@ -24,12 +24,15 @@ published-at = "0x346e3233f61eb0055713417bfaddda7dc3bf26816faad1f7606994a368b929
 git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/sui-framework"
 rev = "a4185da5659d8d299d34e1bb2515ff1f7e32a20a"
+override = true
 
+# a4185da5659d8d299d34e1bb2515ff1f7e32a20a
 [dependencies.sui_extensions]
 local = "../sui_extensions"
+override = true
 
 [addresses]
-stablecoin = "0x0"
+stablecoin = "0x346e3233f61eb0055713417bfaddda7dc3bf26816faad1f7606994a368b92917"
 
 [dev-dependencies]
 
